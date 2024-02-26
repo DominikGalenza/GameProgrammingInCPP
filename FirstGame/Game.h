@@ -25,6 +25,8 @@ private:
 	Uint32 mTicksCount;
 	int mPaddleDirection;
 	Vector2 mPaddlePosition;
+	int mSecondPaddleDirection;
+	Vector2 mSecondPaddlePosition;
 	Vector2 mBallPosition;
 	Vector2 mBallVelocity;
 };
